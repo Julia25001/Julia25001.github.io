@@ -3,43 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Table Assignment</title>
+    <title>HTML Table</title>
 </head>
-<body>
-     <h1>HTML Table Assignment</h1>
+    <style>
+        table td {
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+    <body>
+        <table border="2" cellspacing="0" cellpadding="26">
 
-     <table border="2" cellspacing="0" cellpadding="26">
-        <thead>
-            <tr>
-                <th>No</th>
-                <th>Problem</th>
-                <th>for</th>
-                <th>a web</th>
-            </tr>
-        </thead>
-        <tbody>
+        
             <tr>
                 <td rowspan="2">No</td>
+                <td>Problem</td>
+                <td>for</td>
+                <td>a web</td>
+            </tr>
+        
+        
+            <tr>
                 <td>professional</td>
-                <td rowspan="3" colspan="2">as</td>
+                <td colspan="2" rowspan="3">as</td>
             </tr>
-            <tr>
-                 <td>you</td>
-                
-            </tr>
+       
 
-            <tr>
-                <td>will</td>
-                <td rowspan="2">see</td>
-            </tr>
-            <tr>
-                   <td>in</td>
-                   <td>a few</td>
-                   <td>minus</td>
+        <tr>
+            <td colspan="2">you</td>
+        </tr>
 
-            </tr>
-         </tbody>
-         
-     </table>
+        <tr>
+            <td>will</td>
+            <td rowspan="2">see</td>
+        </tr>
+     
+        <tr>
+            <td>in</td>
+            <td>a few</td>
+            <td>minus</td>
+        </tr>
+    </table>
 </body>
 </html>
