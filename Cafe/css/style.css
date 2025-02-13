@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #1a1814;
+    color: #cda45e;
+}
+
+/* Navbar */
+
+.navbar {
+  display: grid;
+   grid-template-columns: 1fr 1fr;
+  padding: 10px;
+  align-items: center;
+
+}
+
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.brand img{
+    width: 60px;
+    height: 60px;
+    margin: 0 15px 0 15px;
+
+}
+
+.brand h2{
+    letter-spacing: 3px;
+}
+
+.nav-menu ul {
+    display: grid;
+    grid-template-columns: repeat(4,1fr); 
+    justify-content: end;
+    gap: 10px;
+}
+
+.nav-menu ul li{
+    list-style-type: none;
+}
+
+.nav-menu ul li a{
+    text-decoration: none;
+    color: #cda45e;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.nav-menu ul li a:hover {
+    color: white;
+    background-color: #cda45e;
+    border-radius: 5px;
+}
+
+/* Hero Images */
+.hero-container {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-image: url('../images/pexels-apgpotr-683039.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+
+    /* For Text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-text{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.hero-text p{
+    margin: 20px 0;
+}
+
+.hero-text p a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    display:inline-block;
+    padding: 20px 30px;
+    background-color: #cda45e;
+    color: purple;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Singature Menu */
+.singature {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 150px 70px;
+    column-gap: 50px;
+}
+
+.singature-img{
+    width: 100%;
+}
+
+.singature-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.menu-title {
+    font-size: 3em;
+    color: white;
+}
+
+.menu-about {
+    margin: 30px 0;
+    font-size: 1.3em;
+}
+
+/* About Kyaw Cafe */
+
+.about {
+    background-image: url('../images/home-about.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+
+
+/* For Test */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 50px 200px;
+
+}
+
+/* Special Menu */
+.special {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 150px 70px;
+    column-gap: 50px;
+}
+
+.special-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.special-img {
+    width: 100%;
+}
